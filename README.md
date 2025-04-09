@@ -48,7 +48,9 @@ CTrail/
 ├── run_CTRAIL.py                 # 🚀 Main entry point
 └── README.md                     # You are here
 
-## 📄 Data Format
+---
+
+## 📄 Data Format 
 
 Each `.json` file in `data/*-v0/` directories defines a simulation scenario with specific lane and traffic density settings.
 
@@ -64,7 +66,9 @@ Each `.json` file in `data/*-v0/` directories defines a simulation scenario with
 
 merge-v0_lane_3_density_2.5.json → A merging scenario with 3 lanes and vehicle density of 2.5
 
-## ⚙️ Configuration Format
+---
+
+⚙️ Configuration Format
 
 ############ Large language model config ############
 OPENAI_API_TYPE: 'openai' # 'openai' or 'azure'
