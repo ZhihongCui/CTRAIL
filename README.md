@@ -52,7 +52,7 @@ Each `.json` file in `data/*-v0/` directories defines a simulation scenario with
 
 <scenario>-v0_lane_<num_lanes>density<traffic_density>.json
 
-- `<scenario>`: One of `intersection`, `merge`, `roundabout`
+- `<scenario>`: One of `highway`,`intersection`, `merge`, `roundabout`
 - `<num_lanes>`: Number of lanes in the environment (e.g., 3)
 - `<traffic_density>`: Density of vehicles (e.g., 1.0, 1.5, 2.0, etc.)
 
