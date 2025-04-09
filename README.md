@@ -20,9 +20,6 @@ To the best of our knowledge, C-TRAIL is the first to introduce a human-inspired
 ```bash
 CTrail/
 ├── data/                          # Data files
-├── exper_figure/                 # Visualizations
-│   ├── hyperexperiment/
-│   └── hyperparameter.py         # Hyperparameter visualization
 ├── mcts/                         # MCTS + planning modules
 │   ├── mcts_with_prior.py        # Core MCTS with prior knowledge
 │   ├── ObservationGraphBuilder.py# Build observation graphs from environments
@@ -39,9 +36,6 @@ CTrail/
 ├── utils/                        # Utilities and test environments
 │   ├── agent_propmt.py           # Agent-specific prompt logic
 │   ├── data_gather.py            # Data collection scripts
-│   ├── test_intersection.py      # Intersection scenario test
-│   ├── test_merge.py             # Merging scenario test
-│   └── test_rounabout.py         # Roundabout scenario test
 ├── videos/                       # Rendered simulation videos
 ├── config.yaml                   # Configuration file
 ├── license.txt                   # License
@@ -86,7 +80,6 @@ AZURE_EMBED_DEPLOY_NAME: # text embed model deployment name
 reflection_module: False # True or False
 few_shot_num: 3 # 0 for zero-shot
 episodes_num: 2 # run episodes
-# memory_path: 'memories/20_mem'
 result_folder: 'results'
 
 ############ Highway-env config ############
